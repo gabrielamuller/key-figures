@@ -1,0 +1,30 @@
+{
+	"apiVersion": 2,
+	"name": "avidly/key-figures",
+	"version": "0.1.0",
+	"title": "Avidly Key Figures",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "An animated number counter block.",
+	"attributes": {
+        "content": {
+			"type": "array",
+			"source": "children",
+			"selector": "p"
+		}
+    },
+	"supports": {
+		"html": false,
+		"align": [
+			"wide",
+			"full"
+		],
+		"anchor": true,
+		"color": true
+	},
+	"textdomain": "avidly-key-figures",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"script": "file:./build/app.js",
+	"style": "file:./build/style-index.css"
+}
